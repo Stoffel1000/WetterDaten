@@ -17,7 +17,7 @@ print(data.head())
 print(data.max())
 print(data.min())
 
-
+#Ein neuer Kommentar für git zum Testen
 
 
 data['MESS_DATUM']=pd.to_datetime(data.MESS_DATUM, format='%Y%m%d%H')
