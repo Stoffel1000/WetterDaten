@@ -21,6 +21,8 @@ print(data.min())
 
 print("Stefan du bist so gut!!")
 
+print("Beim zweiten mal klappt es")
+
 
 data['MESS_DATUM']=pd.to_datetime(data.MESS_DATUM, format='%Y%m%d%H')
 
